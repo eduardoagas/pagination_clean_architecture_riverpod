@@ -1,6 +1,6 @@
 {
-    "name": "pagination_clean_architecture_riverpode",
-    "short_name": "pagination_clean_architecture_riverpode",
+    "name": "pagination_clean_architecture_riverpod",
+    "short_name": "pagination_clean_architecture_riverpod",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

@@ -1,9 +1,9 @@
 import 'dart:async';
 //import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
-import 'package:pagination_clean_architecture_riverpode/features/example/domain/models/example_item.dart';
-import 'package:pagination_clean_architecture_riverpode/features/example/presentation/providers/example_state_provider.dart';
-import 'package:pagination_clean_architecture_riverpode/shared/pagination/domain/models/pagination_state.dart';
+import 'package:pagination_clean_architecture_riverpod/features/example/domain/models/example_item.dart';
+import 'package:pagination_clean_architecture_riverpod/features/example/presentation/providers/example_state_provider.dart';
+import 'package:pagination_clean_architecture_riverpod/shared/pagination/domain/models/pagination_state.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 //@RoutePage()

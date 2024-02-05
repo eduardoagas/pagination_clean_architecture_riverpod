@@ -1,9 +1,9 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:pagination_clean_architecture_riverpode/features/example/data/data_source/remote/example_remote_data_source.dart';
-import 'package:pagination_clean_architecture_riverpode/features/example/data/repositories/example_repository_impl.dart';
-import 'package:pagination_clean_architecture_riverpode/features/example/domain/repositories/example_repository.dart';
-import 'package:pagination_clean_architecture_riverpode/core/remote/network_service.dart';
-import 'package:pagination_clean_architecture_riverpode/shared/dio/providers/dio_network_service_provider.dart';
+import 'package:pagination_clean_architecture_riverpod/features/example/data/data_source/remote/example_remote_data_source.dart';
+import 'package:pagination_clean_architecture_riverpod/features/example/data/repositories/example_repository_impl.dart';
+import 'package:pagination_clean_architecture_riverpod/features/example/domain/repositories/example_repository.dart';
+import 'package:pagination_clean_architecture_riverpod/core/remote/network_service.dart';
+import 'package:pagination_clean_architecture_riverpod/shared/dio/providers/dio_network_service_provider.dart';
 
 //DOMAIN PROVIDERS fazem a injeção de dependência
 

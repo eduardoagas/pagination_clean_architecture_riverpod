@@ -3,10 +3,10 @@ import 'dart:developer';
 import 'dart:io';
 
 import 'package:dio/dio.dart';
-import 'package:pagination_clean_architecture_riverpode/core/exceptions/http_exception.dart';
-import 'package:pagination_clean_architecture_riverpode/core/remote/either.dart';
-import 'package:pagination_clean_architecture_riverpode/core/remote/network_service.dart';
-import 'package:pagination_clean_architecture_riverpode/core/remote/response.dart' as response;
+import 'package:pagination_clean_architecture_riverpod/core/exceptions/http_exception.dart';
+import 'package:pagination_clean_architecture_riverpod/core/remote/either.dart';
+import 'package:pagination_clean_architecture_riverpod/core/remote/network_service.dart';
+import 'package:pagination_clean_architecture_riverpod/core/remote/response.dart' as response;
 
 
 mixin ExceptionHandlerMixin on NetworkService {

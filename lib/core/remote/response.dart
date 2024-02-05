@@ -1,4 +1,4 @@
-import 'package:pagination_clean_architecture_riverpode/core/exceptions/http_exception.dart';
+import 'package:pagination_clean_architecture_riverpod/core/exceptions/http_exception.dart';
 import 'either.dart';
 
 class Response {

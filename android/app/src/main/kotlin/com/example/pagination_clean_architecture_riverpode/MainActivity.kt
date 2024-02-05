@@ -1,4 +1,4 @@
-package com.example.pagination_clean_architecture_riverpode
+package com.example.pagination_clean_architecture_riverpod
 
 import io.flutter.embedding.android.FlutterActivity
 

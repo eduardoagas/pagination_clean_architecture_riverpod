@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:pagination_clean_architecture_riverpode/shared/dio/data/remote/dio_network_service.dart';
+import 'package:pagination_clean_architecture_riverpod/shared/dio/data/remote/dio_network_service.dart';
 
 final networkServiceProvider = Provider<DioNetworkService>(
   (ref) {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:pagination_clean_architecture_riverpode/features/example/presentation/screens/example_screen.dart';
+import 'package:pagination_clean_architecture_riverpod/features/example/presentation/screens/example_screen.dart';
 
 void main() {
   runApp(const ProviderScope(child: MyApp()));

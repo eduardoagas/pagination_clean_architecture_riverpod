@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
-import 'package:pagination_clean_architecture_riverpode/core/constants/network_constants.dart';
-import 'package:pagination_clean_architecture_riverpode/core/exceptions/http_exception.dart';
-import 'package:pagination_clean_architecture_riverpode/shared/dio/mixins/exception_handler_mixin.dart';
+import 'package:pagination_clean_architecture_riverpod/core/constants/network_constants.dart';
+import 'package:pagination_clean_architecture_riverpod/core/exceptions/http_exception.dart';
+import 'package:pagination_clean_architecture_riverpod/shared/dio/mixins/exception_handler_mixin.dart';
 import '../../../../core/remote/either.dart';
 import '../../../../core/remote/network_service.dart';
 import '../../../../core/remote/response.dart' as response;

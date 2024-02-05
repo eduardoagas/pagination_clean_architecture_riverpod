@@ -1,7 +1,7 @@
 
-import 'package:pagination_clean_architecture_riverpode/core/exceptions/http_exception.dart';
-import 'package:pagination_clean_architecture_riverpode/core/remote/either.dart';
-import 'package:pagination_clean_architecture_riverpode/core/remote/response.dart';
+import 'package:pagination_clean_architecture_riverpod/core/exceptions/http_exception.dart';
+import 'package:pagination_clean_architecture_riverpod/core/remote/either.dart';
+import 'package:pagination_clean_architecture_riverpod/core/remote/response.dart';
 
 abstract class NetworkService {
   String get baseUrl;

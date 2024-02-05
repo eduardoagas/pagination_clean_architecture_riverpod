@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
-import 'package:pagination_clean_architecture_riverpode/core/remote/either.dart';
-import 'package:pagination_clean_architecture_riverpode/core/remote/response.dart';
+import 'package:pagination_clean_architecture_riverpod/core/remote/either.dart';
+import 'package:pagination_clean_architecture_riverpod/core/remote/response.dart';
 
 class AppException implements Exception {
   final String message;

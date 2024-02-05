@@ -1,11 +1,11 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:pagination_clean_architecture_riverpode/core/constants/network_constants.dart';
-import 'package:pagination_clean_architecture_riverpode/features/example/domain/models/example_item.dart';
-import 'package:pagination_clean_architecture_riverpode/features/example/domain/repositories/example_repository.dart';
-import 'package:pagination_clean_architecture_riverpode/core/exceptions/http_exception.dart';
-import 'package:pagination_clean_architecture_riverpode/core/remote/either.dart';
-import 'package:pagination_clean_architecture_riverpode/shared/pagination/domain/models/paginated_response.dart';
-import 'package:pagination_clean_architecture_riverpode/shared/pagination/domain/models/pagination_state.dart';
+import 'package:pagination_clean_architecture_riverpod/core/constants/network_constants.dart';
+import 'package:pagination_clean_architecture_riverpod/features/example/domain/models/example_item.dart';
+import 'package:pagination_clean_architecture_riverpod/features/example/domain/repositories/example_repository.dart';
+import 'package:pagination_clean_architecture_riverpod/core/exceptions/http_exception.dart';
+import 'package:pagination_clean_architecture_riverpod/core/remote/either.dart';
+import 'package:pagination_clean_architecture_riverpod/shared/pagination/domain/models/paginated_response.dart';
+import 'package:pagination_clean_architecture_riverpod/shared/pagination/domain/models/pagination_state.dart';
 
 class ExampleNotifier extends StateNotifier<PaginationState> {
   final ExampleRepository exampleRepository;
