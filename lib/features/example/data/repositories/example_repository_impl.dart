@@ -13,13 +13,13 @@ class ExampleRepositoryImpl extends ExampleRepository {
   @override
   Future<Either<AppException, PaginatedResponse>> fetchExampleItems(
       {required int skip}) {
-    return exampleDatasource.fetchPaginatedProducts(skip: skip);
+    return exampleDatasource.fetchPaginatedItems(skip: skip);
   }
 
   @override
   Future<Either<AppException, PaginatedResponse>> searchExampleItems(
       {required int skip, required String query}) {
-    return exampleDatasource.searchPaginatedProducts(
+    return exampleDatasource.searchPaginatedItems(
         skip: skip, query: query);
   }
 }
