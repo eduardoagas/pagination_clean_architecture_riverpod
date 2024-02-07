@@ -5,18 +5,19 @@ class PaginatedResponse<T> {
 
   final int skip;
 
-  static const limit = PER_PAGE_LIMIT;
+  final int limit ;
 
   final List<T> data;
 
-  PaginatedResponse(
+  PaginatedResponse(this.limit,
       {required this.total, required this.skip, required this.data});
 
-  factory PaginatedResponse.fromJson(dynamic json, List<T> data,
-          {Function(dynamic json)? fixture}) =>
+  factory PaginatedResponse.fromJson(dynamic json, List<T> data, {String? total, String? skip, String? limit,
+          Function(dynamic json)? fixture}) =>
       PaginatedResponse(
-        total: json['total'] ?? 0,
-        skip: json['skip'] ?? 0,
+        total: json[total ?? 'total'] ?? 0,
+        skip: json[skip ?? 'skip'] ?? 0,
+        json[limit ?? 'limit'] ?? PER_PAGE_LIMIT,
         data: data,
       );
   @override

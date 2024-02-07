@@ -40,7 +40,7 @@ class ExampleRemoteDatasource extends ExampleDatasource {
           );
         }
         final paginatedResponse =
-            PaginatedResponse.fromJson(jsonData, jsonData[NetworkConstants.exampleDataName] ?? []);
+            PaginatedResponse.fromJson(jsonData, jsonData[NetworkConstants.exampleDataName] ?? [], limit: NetworkConstants.exampleLimitName, skip: NetworkConstants.exampleSkipName, total: NetworkConstants.exampleTotalName);
         return Right(paginatedResponse);
       },
     );
